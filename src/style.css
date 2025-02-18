@@ -1,0 +1,57 @@
+* {
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    color: #fff2cc;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    user-select: none;
+}
+
+body {
+    background-color: #050400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: #050400;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #14130f;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+button:hover:enabled {
+    background-color: #1d1b16;
+}
+
+.fa {
+    color:#5c470a;
+    margin-left: -10px;
+    background-color: #fbeab6;
+    border-width: 100px;
+    border-radius: 5px;
+    padding: 6px;  /* Adjust padding to increase the background size */
+    display: inline-block;  /* Ensure the icon behaves as a block */
+    /*line-height: 1;  /* Keep the icon centered */
+}

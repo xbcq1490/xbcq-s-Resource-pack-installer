@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xbcq's Resource pack installer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./Icon.png" width="128" height="128"></img>
+        <h2>xbcq's Resource pack installer</h2>
+        <button id="upload-btn" class="btn waves-effect waves-light"><i class="fa fa-file-archive-o" aria-hidden="true"></i> &nbsp; Choose ZIP File</button>
+        <p id="file-name">No file selected</p>
+        <button id="install-btn" class="btn waves-effect waves-light" disabled><i class="fa fa-cog" aria-hidden="true"></i> &nbsp; Install</button>
+        <p id="status"></p>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
