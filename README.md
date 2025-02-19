@@ -10,8 +10,8 @@ A **simple, fully open-source, unique, and user-friendly** Electron-based app to
 
 ## 🚀 Installation  
 1. Clone the repository:  
-   `git clone https://github.com/yourusername/resource-pack-installer.git`  
-   `cd resource-pack-installer`  
+   `git clone https://github.com/xbcq1490/xbcq-s-Resource-pack-installer.git`  
+   `cd src`  
 2. Install dependencies:  
    `npm i`  
 3. Run the app:  
