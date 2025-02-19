@@ -1,7 +1,7 @@
 # 🎨 Minecraft Resource Pack Installer  
 
 A **simple, fully open-source, unique, and user-friendly** Electron-based app to install resource packs for Minecraft effortlessly.  
-
+![Screenshot of the app](images/1.png)
 ## ✨ Features  
 - 🖌 **Drag & Drop** resource packs into the app  
 - ⚡ **One-click install** to the correct Minecraft folder  
